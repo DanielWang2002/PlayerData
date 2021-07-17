@@ -1,0 +1,11 @@
+name: Playerdata
+version: ${project.version}
+main: mc.danielwang.playerdata.Playerdata
+api-version: 1.16
+authors: [ DanielWang ]
+description: log player data
+commands:
+  pd:
+    description: display the player data include ip,uuid,money
+depend:
+  - Vault
